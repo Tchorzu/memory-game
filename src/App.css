@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+}
+
+.winInfo{
+    display: block;
+    margin: 30px 0 0;
+    font-weight: bold;
+}
+
+.reset{
+    background-color: var(--var-button-bg);
+    color: var(--var-button-txt);
+    margin: 30px 0 0;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.reset:hover{
+    background-color: var(--var--hover-button-bg);
+}

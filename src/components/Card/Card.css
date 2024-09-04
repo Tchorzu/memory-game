@@ -1,0 +1,27 @@
+.card{
+    background-color: var(--var-card);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.card:disabled{
+    color: initial;
+    background: initial;
+}
+
+.card:hover{
+    background-color: var(--var-hover-card);
+}
+
+.card.shown{
+    background-color: var(--var-card-shown);
+    transform: scale(1.1);
+}
